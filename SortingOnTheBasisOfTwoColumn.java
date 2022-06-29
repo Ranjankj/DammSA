@@ -14,3 +14,6 @@ Arrays.sort(arr, (a,b)-> {
          }
          return b[1] - a[1];
   });
+
+//converting ArrayList to Array
+list.toArray(new int[row.length][col.length]);
